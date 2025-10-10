@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/app/blog/%5Bid%5D/page.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nfunction Page({ params }: { params: { id: string } }) {\r\n    return (\r\n        <div>\r\n            <h2 className=\"pb-8 text-3xl capitalize\">{params.id}</h2>\r\n            <p className=\"text-lg\">This is a description of the article.</p>\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default Page;"],"names":[],"mappings":";;;;;;AAEA,SAAS,KAAK,EAAE,MAAM,EAA8B;IAChD,qBACI,8OAAC;;0BACG,8OAAC;gBAAG,WAAU;0BAA4B,OAAO,EAAE;;;;;;0BACnD,8OAAC;gBAAE,WAAU;0BAAU;;;;;;;;;;;;AAGnC;uCAEe","debugId":null}}]
+}

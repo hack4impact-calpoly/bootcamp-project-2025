@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/components/server/navbar.tsx"],"sourcesContent":["export default function Navbar() {\r\n    return (\r\n        <div className=\"w-full flex items-center justify-between px-4 py-4 border-b border-gray-200 text-white\">\r\n            <p className=\"text-3xl font-bold\">Will Heath</p>\r\n            <div className=\"flex items-center justify-between gap-8\">\r\n                <a href=\"\">About</a>\r\n                <a href=\"\">Projects</a>\r\n                <a href=\"\">Blog</a>\r\n                <a href=\"\">Contact</a>\r\n            </div>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;gBAAE,WAAU;0BAAqB;;;;;;0BAClC,8OAAC;gBAAI,WAAU;;kCACX,8OAAC;wBAAE,MAAK;kCAAG;;;;;;kCACX,8OAAC;wBAAE,MAAK;kCAAG;;;;;;kCACX,8OAAC;wBAAE,MAAK;kCAAG;;;;;;kCACX,8OAAC;wBAAE,MAAK;kCAAG;;;;;;;;;;;;;;;;;;AAI3B","debugId":null}},
+    {"offset": {"line": 85, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport Navbar from \"@/components/server/navbar\";\n\nexport default function Home() {\n  return (\n    <div>\n        <Navbar />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACG,cAAA,8OAAC,iJAAM;;;;;;;;;;AAGf","debugId":null}}]
+}

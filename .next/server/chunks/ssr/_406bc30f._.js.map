@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/components/client/PageTransitionAnimations.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from 'react';\r\nimport {gsap} from \"gsap\";\r\nimport {useGSAP} from \"@gsap/react\";\r\nimport {usePathname} from \"next/navigation\";\r\n\r\nfunction PageTransitionAnimations() {\r\n    const pathname = usePathname();\r\n\r\n    useGSAP(() => {\r\n        gsap.from(\"#page-content\", {\r\n            y: 10,\r\n            autoAlpha: 0,\r\n            ease: \"power1.out\",\r\n            delay: 0.3,\r\n            immediateRender: false,\r\n        });\r\n    }, { dependencies: [pathname]});\r\n\r\n    return (\r\n        <div className=\"fixed\"></div>\r\n    );\r\n}\r\n\r\nexport default PageTransitionAnimations;"],"names":[],"mappings":";;;;;AAGA;AACA;AACA;AALA;;;;;AAOA,SAAS;IACL,MAAM,WAAW,IAAA,iJAAW;IAE5B,IAAA,0JAAO,EAAC;QACJ,qJAAI,CAAC,IAAI,CAAC,iBAAiB;YACvB,GAAG;YACH,WAAW;YACX,MAAM;YACN,OAAO;YACP,iBAAiB;QACrB;IACJ,GAAG;QAAE,cAAc;YAAC;SAAS;IAAA;IAE7B,qBACI,8OAAC;QAAI,WAAU;;;;;;AAEvB;uCAEe","debugId":null}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

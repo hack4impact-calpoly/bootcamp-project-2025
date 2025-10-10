@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport Navbar from \"@/components/server/navbar\";\n\nexport default function Home() {\n  return (\n    <div>\n        <Navbar />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;kBACG,cAAA,8OAAC;;;;;;;;;;AAGT","debugId":null}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/components/client/PageContentFadeInAnimations.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from 'react';\r\nimport {gsap} from \"gsap\";\r\nimport {useGSAP} from \"@gsap/react\";\r\n\r\nfunction PageContentFadeInAnimations() {\r\n    useGSAP(() => {\r\n        gsap.from(\"#page-content\", {\r\n            y: 10,\r\n            autoAlpha: 0,\r\n            ease: \"power1.out\",\r\n            delay: 0.3,\r\n            immediateRender: false,\r\n        });\r\n    }, []);\r\n\r\n    return (\r\n        <div className=\"fixed\"></div>\r\n    );\r\n}\r\n\r\nexport default PageContentFadeInAnimations;"],"names":[],"mappings":";;;;;AAGA;AACA;AAJA;;;;AAMA,SAAS;IACL,IAAA,0JAAO,EAAC;QACJ,qJAAI,CAAC,IAAI,CAAC,iBAAiB;YACvB,GAAG;YACH,WAAW;YACX,MAAM;YACN,OAAO;YACP,iBAAiB;QACrB;IACJ,GAAG,EAAE;IAEL,qBACI,8OAAC;QAAI,WAAU;;;;;;AAEvB;uCAEe","debugId":null}}]
+}

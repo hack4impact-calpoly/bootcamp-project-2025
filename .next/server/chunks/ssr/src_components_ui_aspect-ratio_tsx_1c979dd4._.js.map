@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/willi/WebstormProjects/bootcamp-project-2025/src/components/ui/aspect-ratio.tsx"],"sourcesContent":["\"use client\"\r\n\r\nimport * as AspectRatioPrimitive from \"@radix-ui/react-aspect-ratio\"\r\n\r\nfunction AspectRatio({\r\n  ...props\r\n}: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {\r\n  return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} />\r\n}\r\n\r\nexport { AspectRatio }\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIA,SAAS,YAAY,EACnB,GAAG,OACoD;IACvD,qBAAO,8OAAC,mLAAyB;QAAC,aAAU;QAAgB,GAAG,KAAK;;;;;;AACtE","debugId":null}}]
+}
